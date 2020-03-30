@@ -7,7 +7,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "git":"git commit & git remote add origin git@github.com:linxueyang/blogsource.git & git push -u origin master"
   },
   "hexo": {
     "version": "4.2.0"
