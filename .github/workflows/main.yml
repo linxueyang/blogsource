@@ -59,6 +59,4 @@ jobs:
 
       - name: 部署博客
         run: |
-          rm -rf .deploy_git
-          hexo clean && hexo generate && hexo deploy
-          rm ~/.ssh/id_rsa
+          hexo generate && hexo deploy # 执行部署程序
