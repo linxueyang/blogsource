@@ -40,6 +40,7 @@ jobs:
 
       - name: 安装插件
         run: |
+          npm install hexo-asset-image --save
           npm install hexo-generator-archive --save
           npm install hexo-generator-category --save
           npm install hexo-generator-feed --save
