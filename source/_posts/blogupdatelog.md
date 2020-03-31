@@ -19,7 +19,7 @@ tags:
  - 配置说明
    1. 配置公钥和私钥
       私钥：settings/secrets(你的项目)
-      公钥：settings/keys(主页)
+      公钥：settings/keys(主页gi)
 
 ```yml
 name: 自动部署 Hexo
