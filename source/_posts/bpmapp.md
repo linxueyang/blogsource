@@ -27,7 +27,7 @@ tags:
 <img src="bpmadpp/image/12.png" width = "100%" height = "800"  alt ="app结构说明" align=center >
 
 # 部署文件
- - <a href="http://www.lxyzy.top/2020/03/26/bpmwebappversion/" target="_blank">BPMWEBAPP版本</a>
+ - <a href="http://www.linxueyang.cn/2020/03/26/bpmwebappversion/" target="_blank">BPMWEBAPP版本</a>
 
 
 # 环境配置

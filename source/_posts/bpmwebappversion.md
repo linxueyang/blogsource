@@ -23,7 +23,7 @@ tags:
 
  - 效果
   - 收藏功能
-    -  <img src="http://www.lxyzy.top/2020/03/26/bpmwebappversion/v1.0.1/image/1.gif" width="50%" height="50%" />
+    -  <img src="http://www.linxueyang.cn/2020/03/26/bpmwebappversion/v1.0.1/image/1.gif" width="50%" height="50%" />
  - 文件
   - <a href="v1.0.1/appadmin.rar" target="_blank">后台管理源码(vue)</a>
   - <a href="v1.0.1/appsource.rar" target="_blank">WEBAPP源码(vue)</a>
