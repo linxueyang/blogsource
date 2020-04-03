@@ -14,6 +14,17 @@ tags:
 - vue
 ---
 
+## v1.0.2    
+ - `20200403`
+ - 更新说明
+  -【修复】菜单地址长度,数据库`BPMAPPADMIN_TBAR_D`,`BPMAPPADMIN_HOME_MENUS`字段已设置为max
+
+ - 文件
+  - <a href="v1.0.1/appadmin.rar" target="_blank">后台管理源码(vue)</a>
+  - <a href="v1.0.1/appsource.rar" target="_blank">WEBAPP源码(vue)</a>
+  - <a href="v1.0.2/app.rar" target="_blank">部署文件</a>
+
+
 
 ## v1.0.1    
  - `20200326`

@@ -4,6 +4,10 @@ date: 2020-03-25 11:14:56
 categories: bpm
 summary: bpm webapp部署及说明文档
 comments: true
+top: true
+cover: true
+img: /medias/featureimages/0.jpg
+coverImg: /medias/featureimages/0.jpg
  # password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
 tags:
 - html
@@ -31,6 +35,13 @@ tags:
 
 
 # 环境配置
+
+## 服务器
+```
+  . windows server
+  . sqlserver
+  . iis
+```
 ## BPM
 
 ```
