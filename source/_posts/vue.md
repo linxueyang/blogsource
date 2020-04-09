@@ -1,7 +1,7 @@
 ---
 title: vue
 date: 2020-04-09 15:23:05
-categories: diary
+categories: vue
 summary: 记录vue一些常用方法操作注意等
 tags:
  - vue
