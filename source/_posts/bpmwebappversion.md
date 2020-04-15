@@ -14,6 +14,21 @@ tags:
 - vue
 ---
 
+
+## v1.0.3    
+ - `20200415`
+ - 更新说明
+  -【修复】图片控件(XImageAttachment)支持微信拍照上传
+
+ - 文件
+  - <a href="v1.0.1/appadmin.rar" target="_blank">后台管理源码(vue)</a>
+  - <a href="v1.0.1/appsource.rar" target="_blank">WEBAPP源码(vue)</a>
+  - <a href="v1.0.3/app.rar" target="_blank">部署文件</a>
+  > 可替换文件进行升级,拷贝app.rar中
+    1.EMIP\Web\YZSoft\src\field\ImageAttachment.js
+    2.EMIP\Web\YZSoft\src\field\ImageAttachment\vue.js
+
+
 ## v1.0.2    
  - `20200403`
  - 更新说明
