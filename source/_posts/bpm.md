@@ -44,3 +44,53 @@ tags:
  ```js
   OnAfterLoad = function () {
  ```
+
+
+ 4.提交时选择下一步审批人
+
+ ```js
+  agent.on({
+            beforeSubmit: function (a, b, c, e, f, g) {
+
+                if (b == "提交") {
+                    if (this.validator.submitValidate("")) {
+                        if (agent.tryGetChechedEle(document.getElementById("XTextBox2")).getValue() == "") {
+                            Ext.create('YZSoft.bpm.src.dialogs.SelUsersDlg', {
+                                autoShow: true,
+                                fn: function (users) {
+                                    var accounts = "";
+                                    for (var i = 0; i < users.length; i++) {
+                                        accounts += users[i].Account + ",";
+                                    }
+                                    agent.tryGetChechedEle(document.getElementById("XTextBox2")).setValue(accounts);
+                                    var g = window.frameElement.containerPanel;
+                                    var btns = g.ownerCt.ownerCt.optButtons;
+
+                                    var link = btns[15].link;
+                                    g.ownerCt.ownerCt.post(link);
+                                }
+                            })
+                            return false;
+                        } else {
+                            return true;
+                        }
+                    }
+                }
+              
+            }
+        });
+ ```
+
+ 5.审批意见赋值
+ ```js
+        agent.on({
+                Submit: function (action, validationGroup, data, params) {
+                    params.Header.Comment = "aa"
+                }
+            });
+ ```
+ 6.文本框取值赋值
+ ```js
+ agent.tryGetChechedEle(document.getElementById("id")).getValue();
+ agent.tryGetChechedEle(document.getElementById("id")).setValue("test");
+ ```
