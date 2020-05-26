@@ -14,7 +14,19 @@ tags:
 - vue
 ---
 
+## v1.0.4    
+ - `20200526`
+ - 更新说明
+  -【修复】日期控件月份显示为英文
 
+ - 文件
+  - <a href="v1.0.1/appadmin.rar" target="_blank">后台管理源码(vue)</a>
+  - <a href="v1.0.1/appsource.rar" target="_blank">WEBAPP源码(vue)</a>
+  - <a href="v1.0.4/app.rar" target="_blank">部署文件</a>
+  > 可替换文直接修改文件进行修改
+    app.js 文件中第338行新增下面语句
+    YZSoft.Globalization.JSLangInit.serverIndicated();
+ 
 ## v1.0.3    
  - `20200415`
  - 更新说明
